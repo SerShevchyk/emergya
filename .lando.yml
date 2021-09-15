@@ -18,24 +18,3 @@ services:
         XDEBUG_CONFIG: "remote_enable=1 remote_host=host.docker.internal"
   pma:
     type: phpmyadmin
-
-tooling:
-  npm:
-    service: appserver
-    cmd: cd /app/web/themes/hrs && npm
-  npm2020:
-    service: appserver
-    cmd: cd /app/web/themes/hrs2020science && npm
-  gulp:
-    service: appserver
-    cmd: cd /app/web/themes/hrs && gulp
-  gulp2020:
-    service: appserver
-    cmd: cd /app/web/themes/hrs2020science && gulp
-  gulpwatch2020:
-    service: appserver
-    cmd: cd /app/web/themes/hrs2020science && gulp watch
-  behat:
-    description: Run Behat tests.
-    cmd:
-      - appserver: /app/vendor/bin/behat --config=tests/behat/behat-lando.yml --strict --colors

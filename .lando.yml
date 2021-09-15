@@ -7,14 +7,14 @@ config:
   config:
     php: .lando.php.ini
   webroot: web
-  composer_version: "1.10.22"
+  composer_version: 1.10.22
+  framework: drupal8
 services:
   appserver:
     overrides:
       environment:
-        # Support debugging Drush with XDEBUG.
-        PHP_IDE_CONFIG: "serverName=appserver"
-        LANDO_HOST_IP: "host.docker.internal"
-        XDEBUG_CONFIG: "remote_enable=1 remote_host=host.docker.internal"
+        PHP_IDE_CONFIG: serverName=appserver
+        LANDO_HOST_IP: host.docker.internal
+        XDEBUG_CONFIG: remote_enable=1 remote_host=host.docker.internal
   pma:
     type: phpmyadmin

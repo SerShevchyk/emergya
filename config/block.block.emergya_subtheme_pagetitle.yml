@@ -1,0 +1,18 @@
+uuid: 1967f616-20af-4315-9811-22e0ff1e3960
+langcode: en
+status: true
+dependencies:
+  theme:
+    - emergya_subtheme
+id: emergya_subtheme_pagetitle
+theme: emergya_subtheme
+region: content
+weight: -1
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

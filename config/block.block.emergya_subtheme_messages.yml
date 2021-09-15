@@ -1,0 +1,22 @@
+uuid: f340ed9a-4775-458b-8bb4-fbe5e0ad7daf
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - emergya_subtheme
+_core:
+  default_config_hash: tZtWC6EKIYALVtpV4mPz79GsLZD6IFWb7Wk1B7Rd8Go
+id: emergya_subtheme_messages
+theme: emergya_subtheme
+region: content
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,6 @@
+services:
+  emergya_product.product_event_subscriber:
+    class: Drupal\emergya_product\EventSubscriber\ProductEventSubscriber
+    tags:
+      - { name: event_subscriber }
+    arguments: ['@form_builder', '@current_route_match']

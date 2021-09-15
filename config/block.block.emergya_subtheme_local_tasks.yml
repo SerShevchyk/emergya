@@ -1,0 +1,22 @@
+uuid: abe5d79e-70b8-4e44-89bf-019883dac119
+langcode: en
+status: true
+dependencies:
+  theme:
+    - emergya_subtheme
+_core:
+  default_config_hash: IzSbK3zk-Gon9y7WLEWop15Wn__7LeKzBJIXqajlb00
+id: emergya_subtheme_local_tasks
+theme: emergya_subtheme
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

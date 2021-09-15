@@ -1,0 +1,9 @@
+emergya_product.protect_products_cookies_block:
+  version: 1.x
+  js:
+    js/protect_products_cookies_block.js: {}
+  dependencies:
+    - core/drupal.dialog.ajax
+    - core/jquery.once
+    - core/js-cookie
+    - core/drupal

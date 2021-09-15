@@ -1,0 +1,22 @@
+uuid: df8adda9-6f5f-48dc-835d-5cedb5cded8b
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - emergya_subtheme
+_core:
+  default_config_hash: JPtjio142VL7z1Y-K1aWkTXu5wId7r4-zNUHozwLqf0
+id: emergya_subtheme_help
+theme: emergya_subtheme
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

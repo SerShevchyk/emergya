@@ -1,0 +1,14 @@
+uuid: 536a56b3-0742-4f47-95df-c4041832a3e0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - taotiadmin@taoti.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
